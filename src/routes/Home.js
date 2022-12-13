@@ -1,6 +1,8 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import IMGG from '../assets/1.jpg'
+import Destination from '../components/Destination'
+import Trip from '../components/Trip'
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
         url="/"
         btnClass="show"
       />
+      <Destination />
+      <Trip />
     </>
   )
 }
