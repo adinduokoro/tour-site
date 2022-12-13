@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import IMGG from '../assets/4.jpg'
+import Trip from '../components/Trip'
 
 const Service = () => {
   return (
@@ -12,6 +13,7 @@ const Service = () => {
         url="/"
         btnClass="hide"
       />
+      <Trip />
     </>
   )
 }

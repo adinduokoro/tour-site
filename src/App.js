@@ -5,7 +5,7 @@ import Service from './routes/Service';
 import Contact from './routes/Contact';
 import Layout from './components/Layout';
 
-// 2:06
+// 2:48
 
 function App() {
   return (
